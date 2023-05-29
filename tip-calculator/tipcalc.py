@@ -1,0 +1,6 @@
+bill = float(input("Enter the bill: "))
+tip = int(input("Enter the percentage tip: "))
+billtip = bill + (bill*(tip/100))
+split = int(input("Enter the people to be spitted the bill: "))
+finalbill = "{:.2f}".format(billtip/split)
+print(f"Each person should pay {finalbill}")
