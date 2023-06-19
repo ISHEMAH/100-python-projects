@@ -13,3 +13,6 @@ elif 40 <= int(percent) <= 50:
 else:
     print(f"Your score is {percent}% ")
 
+
+
+
